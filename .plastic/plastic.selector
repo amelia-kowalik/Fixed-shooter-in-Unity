@@ -1,0 +1,4 @@
+repository "FixedShooter/FixedShooter@20067346787565@cloud"
+  path "/"
+    br "/main"
+    co "/main"
