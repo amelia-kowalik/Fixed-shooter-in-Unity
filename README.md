@@ -7,3 +7,6 @@
 - **Assets:** Kay Lousberg (https://www.kaylousberg.com), Kenney (https://kenney.nl)
 
   
+<p align="center">
+  <img src="gierkaGIF.gif" alt="Gameplay Preview">
+</p>
