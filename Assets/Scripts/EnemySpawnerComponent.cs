@@ -7,7 +7,7 @@ public class EnemySpawnerComponent : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating(nameof(SpawnEnemy),2f,3f);
+        InvokeRepeating(nameof(SpawnEnemy),1f,1.5f);
     }
 
    private void SpawnEnemy(){

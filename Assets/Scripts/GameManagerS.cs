@@ -11,6 +11,7 @@ public class GameManagerS : MonoBehaviour
     private void Start()
     {
         gameUI.SetActive(false);
+        Cursor.visible = false;
     }
 
     public void GameOver()
@@ -18,10 +19,12 @@ public class GameManagerS : MonoBehaviour
         if (gameUI != null)
         {
             gameUI.SetActive(true); 
+            Cursor.visible = true;
+
         }
         else
         {
-            Debug.LogError("Game Over UI is missing.");
+            Debug.LogError("GameOver UI is missing.");
         }
     }
 
